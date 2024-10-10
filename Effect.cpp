@@ -41,7 +41,7 @@ void EffectDraw()
 	{
 		if (effects[i].isAlive == true)
 		{
-			DrawChar(effects[i].x - 1, effects[i].y - 1, effectShape[effects[i].index][0][0], GREEN|RED);
+			DrawChar(effects[i].x - 1, effects[i].y - 1, effectShape[effects[i].index][0][0], GREEN | RED);
 			DrawChar(effects[i].x , effects[i].y - 1, effectShape[effects[i].index][0][1], GREEN | RED);
 			DrawChar(effects[i].x + 1, effects[i].y - 1, effectShape[effects[i].index][0][2], GREEN | RED);
 			

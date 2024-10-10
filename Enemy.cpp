@@ -20,8 +20,8 @@ void EnemyUpdate()
 	
 	if (creatEnemyTime < GetTickCount())
 	{
-		creatEnemyTime = GetTickCount() + 500;
-		CreatEnemy(rand() % 120, -1);
+		creatEnemyTime = GetTickCount() + 200;
+		CreatEnemy(rand() % 120, 3);
 	}
 	/*CreatEnemy(rand() % 120, -1);*/
 
@@ -110,6 +110,7 @@ void BulletEnemyCollision()
 					CreateEffect(enemys[j].x, enemys[j].y);
 					bullets[i].isAlive = false;
 					enemys[j].isAlive = false;
+					score++;
 					break;
 				}
 			}

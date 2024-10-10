@@ -25,6 +25,12 @@
     <Filter Include="Effect">
       <UniqueIdentifier>{844b835c-6424-4b87-b577-23bff4bfcf14}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Boss">
+      <UniqueIdentifier>{17f74873-5fd0-4df7-b355-6ef696cd47fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{00ec738d-e3f3-4f8e-b661-ac518c7325b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -45,6 +51,12 @@
     <ClCompile Include="Effect.cpp">
       <Filter>Effect</Filter>
     </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include.h">
@@ -64,6 +76,12 @@
     </ClInclude>
     <ClInclude Include="Effect.h">
       <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

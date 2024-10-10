@@ -15,6 +15,7 @@
 #define BLACK 0
 
 
-#define D_BULLET_MAX 50
+#define D_BULLET_MAX 100
 #define D_ENEMY_MAX 50
 #define D_EFFECT_MAX 50
+#define D_BOSS_MAX 10

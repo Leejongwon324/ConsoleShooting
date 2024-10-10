@@ -7,10 +7,15 @@
 #include "Bullet.h"
 #include "Enemy.h"
 #include "Effect.h"
+#include "Boss.h"
+#include "UI.h"
 
 extern Player player;
 extern Bullet bullets[D_BULLET_MAX];
 extern Enemy enemys[D_ENEMY_MAX];
+extern int score;
+extern Boss bosses;
+
 
 void Init();
 void Update();

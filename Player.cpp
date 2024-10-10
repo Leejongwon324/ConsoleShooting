@@ -5,7 +5,7 @@ Player player;
 void PlayerInit()
 {
 	player.x = 60;
-	player.y = 29;
+	player.y = 28;
 
 }
 
@@ -37,7 +37,7 @@ void PlayerUpdate()
 
 void PlayerDraw()
 {
-	DrawChar(player.x, player.y, 'W', WHITE);
+	DrawChar(player.x, player.y, 'b', WHITE);
 }
 
 void PlayerMove()
@@ -57,17 +57,17 @@ void PlayerMove()
 
 void PlayerClipping()
 {
-	if (player.x > 119)
-		player.x = 119;
+	if (player.x > 118)
+		player.x = 118;
 
-	if (player.x  < 0)
-		player.x = 0;
+	if (player.x  < 1)
+		player.x = 1;
 
-	if (player.y > 29)
-		player.y = 29;
+	if (player.y > 28)
+		player.y = 28;
 
-	if (player.y < 0)
-		player.y = 0;
+	if (player.y < 5)
+		player.y = 5;
 	
 		
 		
