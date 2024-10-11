@@ -27,14 +27,19 @@ void BossInit()
 
 void BossUpdate()
 {
-	
+	for (int i = 0; i < D_ENEMY_MAX; i++)
+	{
 		if (score >= 5)
 		{
-			score = 0;
+			
+			
 			CreatBoss(60, 15);
 			
-		}
+			enemys[i].isAlive = false;
 
+			
+		}
+	}
 		
 
 	BulletBossCollision();
