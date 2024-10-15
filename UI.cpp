@@ -4,7 +4,7 @@ int score = 0;
 int bulletscount = D_BULLET_MAX;
 int item= 0;
 int times = 0;
-int hp = 0;
+//int hp = 0;
 
 int UIBoard[30][120] =
 {
@@ -61,9 +61,9 @@ void UiDraw() // ∏ﬁ¿Œ ui
 	sprintf_s(str3, "TIME:  %d", times);
 	DrawStr(55, 2, str3, WHITE);
 
-	char str4[20];
+	/*char str4[20];
 	sprintf_s(str4, "%d", hp);
-	DrawStr(75, 2, str4, RED_BOX);
+	DrawStr(75, 2, str4, RED_BOX);*/
 
 	
 

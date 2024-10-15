@@ -5,11 +5,14 @@ Boss bosses;
 DWORD moveBossTime = 0;
 
 
-char bossshape[3][3] =
+char bossshape[5][5] =
 {
-	{' ', ' ', ' '},
-	{' ', ' ', ' '},
-	{' ', ' ', ' '},
+	{' ', ' ', ' ', ' ', ' '},
+	{' ', ' ', ' ', ' ', ' '},
+	{' ', ' ', ' ', ' ', ' '},
+	{' ', ' ', ' ', ' ', ' '},
+	{' ', ' ', ' ', ' ', ' '}
+
 	
 	
 };
@@ -29,7 +32,7 @@ void BossInit()
 void BossUpdate()
 {
 
-	if (score >= 5 )
+	if (score == 20 || score == 40)
 	{
 		CreatBoss(60, 15);
 		bosses.isAlive = true;
@@ -47,7 +50,7 @@ void BossUpdate()
 
 		BossMove();
 
-		BossClipping();
+		BossHp();
 
 		
 	}
@@ -78,12 +81,13 @@ void BossDraw()
 void BossHp()
 {
 
-	//if (bosses.isAlive && bosses.hp <=0)
-	//{
-	//		bosses.isAlive = false;
-	//		bosslive = false;
-	//}
-	//
+	if (bosses.isAlive && bosses.hp <= 0)
+	{
+		bosses.isAlive = false;
+
+		score++;
+	}
+
 
 	
 }
@@ -99,13 +103,13 @@ void BossMove()
 void BossClipping()
 {
 	
-		if (bosses.isAlive && bosses.hp <= 0)
+	/*	if (bosses.isAlive && bosses.hp <= 0)
 		{
 			bosses.isAlive = false;
 			
 			score++;
 		}
-	
+	*/
 }
 
 void CreatBoss(int x, int y)
