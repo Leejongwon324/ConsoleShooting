@@ -1,3 +1,2 @@
-﻿  Boss.cpp
-C:\Users\User\Documents\GitHub\ConsoleShooting\Boss.cpp(79,6): warning C4551: 함수 호출에 인수 목록이 없습니다.
-  ConsoleShooting.vcxproj -> C:\Users\User\Documents\GitHub\ConsoleShooting\x64\Debug\ConsoleShooting.exe
+﻿  UI.cpp
+  ConsoleShooting.vcxproj -> C:\Users\ghlrv\OneDrive\문서\GitHub\ConsoleShooting\x64\Debug\ConsoleShooting.exe

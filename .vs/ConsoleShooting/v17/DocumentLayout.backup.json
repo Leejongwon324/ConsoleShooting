@@ -1,46 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\",
+  "WorkspaceRootPath": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\UI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:UI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Boss.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Boss.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Boss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Boss.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:include.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\ConsoleFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Define.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\ConsoleFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:ConsoleFramework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Effect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Effect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Effect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Effect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\UI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:UI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{140D8217-9D99-4C05-8D4E-2E3D4A9CFBE6}|ConsoleShooting.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,137 +74,203 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Enemy.h",
-              "RelativeDocumentMoniker": "Enemy.h",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Enemy.h",
-              "RelativeToolTip": "Enemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "UI.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\UI.h",
+              "RelativeDocumentMoniker": "UI.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\UI.h",
+              "RelativeToolTip": "UI.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-01T11:03:09.374Z",
+              "WhenOpened": "2024-10-10T11:26:37.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UI.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\UI.cpp",
+              "RelativeDocumentMoniker": "UI.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\UI.cpp*",
+              "RelativeToolTip": "UI.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-10T11:26:31.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Boss.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Boss.h",
+              "RelativeDocumentMoniker": "Boss.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Boss.h",
+              "RelativeToolTip": "Boss.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-10T10:50:12.545Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Enemy.cpp",
-              "RelativeDocumentMoniker": "Enemy.cpp",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Enemy.cpp*",
-              "RelativeToolTip": "Enemy.cpp*",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Title": "Boss.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Boss.cpp",
+              "RelativeDocumentMoniker": "Boss.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Boss.cpp",
+              "RelativeToolTip": "Boss.cpp",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAqwHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-01T11:03:02.006Z",
+              "WhenOpened": "2024-10-10T10:50:06.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Bullet.h",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Bullet.h",
-              "RelativeDocumentMoniker": "Bullet.h",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Bullet.h",
-              "RelativeToolTip": "Bullet.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Effect.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Effect.h",
+              "RelativeDocumentMoniker": "Effect.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Effect.h",
+              "RelativeToolTip": "Effect.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-27T12:42:45.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-08T10:30:44.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Effect.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Effect.cpp",
+              "RelativeDocumentMoniker": "Effect.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Effect.cpp",
+              "RelativeToolTip": "Effect.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACwAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T10:30:36.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Enemy.h",
+              "RelativeDocumentMoniker": "Enemy.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Enemy.h",
+              "RelativeToolTip": "Enemy.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-01T11:03:09.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Enemy.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Enemy.cpp",
+              "RelativeToolTip": "Enemy.cpp",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAHAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-01T11:03:02.006Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Bullet.cpp",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Bullet.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Bullet.cpp",
               "RelativeDocumentMoniker": "Bullet.cpp",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Bullet.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Bullet.cpp",
               "RelativeToolTip": "Bullet.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-27T12:42:38.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Player.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Player.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Player.h",
               "RelativeToolTip": "Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvwAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-27T12:02:43.951Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T12:02:43.951Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Player.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Player.cpp*",
-              "RelativeToolTip": "Player.cpp*",
-              "ViewState": "AgIAABQAAAAAAAAAAAAswCcAAAAgAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Player.cpp",
+              "RelativeToolTip": "Player.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-27T12:02:35.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Define.h",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Define.h",
-              "RelativeDocumentMoniker": "Define.h",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\Define.h",
-              "RelativeToolTip": "Define.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-07T07:15:36.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConsoleFramework.cpp",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\ConsoleFramework.cpp",
-              "RelativeDocumentMoniker": "ConsoleFramework.cpp",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\ConsoleFramework.cpp",
-              "RelativeToolTip": "ConsoleFramework.cpp",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAQwG4AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-07T06:15:16.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "include.h",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\include.h",
-              "RelativeDocumentMoniker": "include.h",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\include.h",
-              "RelativeToolTip": "include.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-07T06:07:29.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T12:02:35.233Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "Define.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Define.h",
+              "RelativeDocumentMoniker": "Define.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Define.h",
+              "RelativeToolTip": "Define.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-07T07:15:36.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsoleFramework.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\ConsoleFramework.cpp",
+              "RelativeDocumentMoniker": "ConsoleFramework.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\ConsoleFramework.cpp",
+              "RelativeToolTip": "ConsoleFramework.cpp",
+              "ViewState": "AQIAADMAAAAAAAAAAAApwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-07T06:15:16.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "include.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\include.h",
+              "RelativeDocumentMoniker": "include.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\include.h",
+              "RelativeToolTip": "include.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-07T06:07:29.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Bullet.h",
+              "RelativeDocumentMoniker": "Bullet.h",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\Bullet.h",
+              "RelativeToolTip": "Bullet.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-27T12:42:45.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\ConsoleShooting-main (1)\\main.cpp",
+              "ToolTip": "C:\\Users\\ghlrv\\OneDrive\\\uBB38\uC11C\\GitHub\\ConsoleShooting\\main.cpp",
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-07T06:02:22.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T06:02:22.265Z"
             }
           ]
         }

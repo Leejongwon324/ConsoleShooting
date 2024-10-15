@@ -8,7 +8,7 @@ struct Boss
 	int hp;
 
 	int index;
-	DWORD indexupdatetime;
+	
 };
 
 

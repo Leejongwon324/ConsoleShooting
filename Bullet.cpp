@@ -38,6 +38,8 @@ void BulletMove()
 	{
 		if (bullets[i].isAlive == true)
 			bullets[i].y--;
+		if (bullets[i].y < 5)
+			bullets[i].isAlive = false;
 	}
 
 

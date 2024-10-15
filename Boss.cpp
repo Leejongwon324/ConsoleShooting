@@ -4,6 +4,7 @@ Boss bosses;
 
 DWORD moveBossTime = 0;
 
+
 char bossshape[3][3] =
 {
 	{' ', ' ', ' '},
@@ -21,34 +22,35 @@ void BossInit()
 		bosses.y = 0;
 		bosses.index = 0;
 		bosses.hp = 0;
-		bosses.indexupdatetime = 0;
+		
 	
 }
 
 void BossUpdate()
 {
-	for (int i = 0; i < D_ENEMY_MAX; i++)
-	{
-		if (score >= 5)
-		{
-			
-			
-			CreatBoss(60, 15);
-			
-			enemys[i].isAlive = false;
 
-			
-		}
-	}
+	if (score >= 5 )
+	{
+		CreatBoss(60, 15);
+		bosses.isAlive = true;
 		
 
-	BulletBossCollision();
+		for (int i = 0; i < D_ENEMY_MAX; i++)
+		{
+			enemys[i].isAlive = false;
+		}
+	}
 
-	BossMove();
+	if (bosses.isAlive == true)
+	{
+		BulletBossCollision();
 
-	BossClipping();
+		BossMove();
 
-	BossHp();
+		BossClipping();
+
+		
+	}
 }
 
 void BossDraw()
@@ -76,21 +78,22 @@ void BossDraw()
 void BossHp()
 {
 
-	if (BulletBossCollision)
-		bosses.hp--;
-
-	
+	//if (bosses.isAlive && bosses.hp <=0)
+	//{
+	//		bosses.isAlive = false;
+	//		bosslive = false;
+	//}
+	//
 
 	
 }
 
 void BossMove()
 {
-	/*for (int i = 0; i < D_BOSS_MAX; i++)
-	{
+	/*
 		if (bosses.isAlive == true)
-			bosses.x = rand() % 120;
-	}*/
+			bosses.x = rand() % 120;*/
+	
 }
 
 void BossClipping()
@@ -99,6 +102,8 @@ void BossClipping()
 		if (bosses.isAlive && bosses.hp <= 0)
 		{
 			bosses.isAlive = false;
+			
+			score++;
 		}
 	
 }
