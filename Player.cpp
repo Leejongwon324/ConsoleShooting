@@ -1,19 +1,22 @@
 #include "include.h"
 
-Player player; 
+Player player;
 
 void PlayerInit()
 {
 	player.x = 60;
 	player.y = 28;
+	player.hp = 10;
+	player.isAlive = true;
 
 }
 
 void PlayerUpdate()
 {
+
 	PlayerMove();
 	PlayerClipping();
-	
+
 	/*while(true)
 	{
 		int random = rand();
@@ -29,10 +32,23 @@ void PlayerUpdate()
 	{
 		CreatBullets(player.x, player.y);
 	}
-	
-	
-	
-	
+
+	BulletReload();
+
+	PlayerHp();
+
+	if (player.isAlive == false)
+	{
+
+		for (int i = 0; i < D_ENEMY_MAX; i++)
+			enemys[i].isAlive = false;
+
+		for (int i = 0; i < D_BULLET_MAX; i++)
+			bullets[i].isAlive = false;
+		if (GetAsyncKeyState('G') & 0x8000)
+			PlayerInit();
+	}
+
 }
 
 void PlayerDraw()
@@ -60,7 +76,7 @@ void PlayerClipping()
 	if (player.x > 118)
 		player.x = 118;
 
-	if (player.x  < 1)
+	if (player.x < 1)
 		player.x = 1;
 
 	if (player.y > 28)
@@ -68,7 +84,18 @@ void PlayerClipping()
 
 	if (player.y < 5)
 		player.y = 5;
-	
-		
-		
+
+
+
+}
+
+void PlayerHp()
+{
+	if (player.hp == 0)
+		player.isAlive = false;
+}
+
+void GameOver()
+{
+
 }

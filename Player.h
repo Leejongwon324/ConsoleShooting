@@ -6,7 +6,8 @@ struct Player   // 구조체(또는 사용자 정의 데이터 타입)
 {
 	int x; // 멤버 변수
 	int y; // 멤버 변수
-
+	int hp;
+	bool isAlive;
 };
 
 void PlayerInit();
@@ -15,3 +16,7 @@ void PlayerDraw();
 
 void PlayerMove();
 void PlayerClipping();
+
+void PlayerHp();
+
+void GameOver();

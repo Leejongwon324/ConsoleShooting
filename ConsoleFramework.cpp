@@ -21,6 +21,7 @@ void Init()
 	EnemyInit();
 	EffectInit();
 	BossInit();
+	ItemInit();
 
 }
 void Update()
@@ -29,18 +30,20 @@ void Update()
 	BulletUpdate();
 	EnemyUpdate();
 	BossUpdate();
+	ItemUpdate();
 
 	EffectUpdate();
 }
 void Draw()
 {
 	ClearScreen();
-	
+
 	PlayerDraw();
 	BulletDraw();
 	EnemyDraw();
 	EffectDraw();
 	BossDraw();
+	ItemDraw();
 
 	UiDraw();
 

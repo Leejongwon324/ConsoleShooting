@@ -8,7 +8,7 @@ char effectShape[3][3][3] =
 		{' ', ' ', ' '},
 		{' ', '*', ' '},
 		{' ', ' ', ' '}
-    },
+	},
 	{
 		{' ', '*', ' '},
 		{'*', '*', '*'},
@@ -42,15 +42,15 @@ void EffectDraw()
 		if (effects[i].isAlive == true)
 		{
 			DrawChar(effects[i].x - 1, effects[i].y - 1, effectShape[effects[i].index][0][0], GREEN | RED);
-			DrawChar(effects[i].x , effects[i].y - 1, effectShape[effects[i].index][0][1], GREEN | RED);
+			DrawChar(effects[i].x, effects[i].y - 1, effectShape[effects[i].index][0][1], GREEN | RED);
 			DrawChar(effects[i].x + 1, effects[i].y - 1, effectShape[effects[i].index][0][2], GREEN | RED);
-			
-			DrawChar(effects[i].x -1, effects[i].y, effectShape[effects[i].index][1][0], GREEN | RED);
-			DrawChar(effects[i].x , effects[i].y, effectShape[effects[i].index][1][1], GREEN | RED);
+
+			DrawChar(effects[i].x - 1, effects[i].y, effectShape[effects[i].index][1][0], GREEN | RED);
+			DrawChar(effects[i].x, effects[i].y, effectShape[effects[i].index][1][1], GREEN | RED);
 			DrawChar(effects[i].x + 1, effects[i].y, effectShape[effects[i].index][1][2], GREEN | RED);
-			
-			DrawChar(effects[i].x -1, effects[i].y + 1, effectShape[effects[i].index][2][0], GREEN | RED);
-			DrawChar(effects[i].x , effects[i].y + 1, effectShape[effects[i].index][2][1], GREEN | RED);
+
+			DrawChar(effects[i].x - 1, effects[i].y + 1, effectShape[effects[i].index][2][0], GREEN | RED);
+			DrawChar(effects[i].x, effects[i].y + 1, effectShape[effects[i].index][2][1], GREEN | RED);
 			DrawChar(effects[i].x + 1, effects[i].y + 1, effectShape[effects[i].index][2][2], GREEN | RED);
 		}
 	}
@@ -60,7 +60,7 @@ void EffectUpdate()
 {
 	for (int i = 0; i < D_EFFECT_MAX; i++)
 	{
-		if (effects[i].isAlive && 
+		if (effects[i].isAlive &&
 			effects[i].indexUpdateTime < GetTickCount())
 		{
 			effects[i].indexUpdateTime = GetTickCount() + 300;

@@ -21,6 +21,7 @@ void BulletUpdate()
 {
 	BulletMove();
 	BulletClipping();
+
 }
 
 void BulletDraw()
@@ -60,14 +61,36 @@ void BulletClipping()
 
 void CreatBullets(int x, int y)
 {
-	for (int i = 0; i < D_BULLET_MAX; i++)
+	if (bulletscount > 0)
 	{
-		if (bullets[i].isAlive == false)
+		for (int i = 0; i < D_BULLET_MAX; i++)
 		{
-			bullets[i].x = x;
-			bullets[i].y = y;
-			bullets[i].isAlive = true;
-			break;
+			if (bullets[i].isAlive == false)
+			{
+				bullets[i].x = x;
+				bullets[i].y = y;
+				bullets[i].isAlive = true;
+				bulletscount--;
+				break;
+			}
 		}
 	}
+
+
+}
+
+void BulletReload()
+{
+
+	if (bulletscount == 0)
+	{
+		bulletscount = 0;
+	}
+	if (GetAsyncKeyState('R') & 0x8000)
+	{
+		BulletInit();
+		bulletscount = D_BULLET_MAX;
+	}
+
+
 }

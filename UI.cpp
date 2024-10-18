@@ -1,10 +1,13 @@
 #include "include.h"
 
 int score = 0;
+
 int bulletscount = D_BULLET_MAX;
-int item= 0;
-int times = 0;
-//int hp = 0;
+
+int GameTimes = 0;
+
+int hpindex;
+
 
 int UIBoard[30][120] =
 {
@@ -46,26 +49,43 @@ void UiDraw() // 메인 ui
 {
 	char str[20];
 	sprintf_s(str, "SCORE : %d", score);
-	
 	DrawStr(2, 2, str, WHITE);
 
-	char str1[20];
-	sprintf_s(str1, "Bullets : %d", bulletscount);
-	DrawStr(20, 2, str1, WHITE);
 
-	char str2[20];
-	sprintf_s(str2, "ITEM: %d", item);
-	DrawStr(40, 2, str2, WHITE);
+	sprintf_s(str, "Bullets : %d", bulletscount);
+	DrawStr(20, 2, str, WHITE);
 
-	char str3[20];
-	sprintf_s(str3, "TIME:  %d", times);
-	DrawStr(55, 2, str3, WHITE);
+	for (int i = 0; i < D_ITEM_MAX; i++)
+	{
+		sprintf_s(str, "ITEM: %d", items[i].ItemNumber);
+		DrawStr(40, 2, str, WHITE);
+		if (items[i].ItemNumber >= 1)
+			DrawStr(40, 3, "Use : C", RED);
 
-	/*char str4[20];
-	sprintf_s(str4, "%d", hp);
-	DrawStr(75, 2, str4, RED_BOX);*/
 
-	
+	}
+
+
+	DrawStr(56, 2, "TIME:", WHITE);
+	sprintf_s(str, "%d", GameTimes);
+	DrawStr(61, 2, str, WHITE);
+
+
+	DrawStr(72, 2, "HP: ", RED);
+
+	sprintf_s(str, "%d", player.hp);
+	DrawStr(77, 2, str, RED);
+
+	if (player.isAlive == false)
+	{
+		DrawStr(54, 15, "GameOver", BLUE);
+		DrawStr(54, 16, "PRESS : G", BLUE);
+	}
+
+	if (bulletscount == 0)
+	{
+		DrawStr(19, 3, "Reload: Press R", RED);
+	}
 
 	for (int i = 0; i < 30; i++)
 	{
@@ -82,3 +102,4 @@ void UiDraw() // 메인 ui
 		}
 	}
 }
+

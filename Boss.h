@@ -8,7 +8,7 @@ struct Boss
 	int hp;
 
 	int index;
-	
+
 };
 
 
@@ -18,10 +18,11 @@ void BossInit();
 void BossUpdate();
 void BossDraw();
 
-void BossHp();
-
 void BossMove();
-void BossClipping();
+void BossHp();
 void CreatBoss(int x, int y);
+void BossClipping();
+
+//void BossAttack(int x, int y); 
 
 void BulletBossCollision();

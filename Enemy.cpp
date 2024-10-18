@@ -17,7 +17,7 @@ void EnemyInit()
 
 void EnemyUpdate()
 {
-	
+
 	if (creatEnemyTime < GetTickCount())
 	{
 		creatEnemyTime = GetTickCount() + 200;
@@ -26,10 +26,12 @@ void EnemyUpdate()
 	/*CreatEnemy(rand() % 120, -1);*/
 
 	EnemyMove();
-	
+
 	EnemyClipping();
 
 	BulletEnemyCollision();
+
+	EnemyPlayerCollision();
 
 }
 
@@ -66,7 +68,7 @@ void EnemyClipping()
 
 void CreatEnemy(int x, int y)
 {
-	
+
 	for (int i = 0; i < D_ENEMY_MAX; i++)
 	{
 		if (enemys[i].isAlive == false)
@@ -91,7 +93,7 @@ void BulletEnemyCollision()
 			{
 				bullets[i].isAlive = false;
 				enemys[j].isAlive = false;
-				
+
 
 			}
 		}
@@ -103,8 +105,8 @@ void BulletEnemyCollision()
 		{
 			for (int j = 0; j < D_ENEMY_MAX; j++)
 			{
-				if (enemys[j].isAlive && 
-					bullets[i].x == enemys[j].x && 
+				if (enemys[j].isAlive &&
+					bullets[i].x == enemys[j].x &&
 					(bullets[i].y == enemys[j].y || bullets[i].y + 1 == enemys[j].y))
 				{
 					CreateEffect(enemys[j].x, enemys[j].y);
@@ -116,4 +118,25 @@ void BulletEnemyCollision()
 			}
 		}
 	}
+}
+
+void EnemyPlayerCollision()
+{
+
+	if (player.isAlive)
+	{
+		for (int j = 0; j < D_ENEMY_MAX; j++)
+		{
+			if (enemys[j].isAlive &&
+				player.x == enemys[j].x &&
+				player.y == enemys[j].y)
+			{
+
+				enemys[j].isAlive = false;
+				player.hp--;
+				break;
+			}
+		}
+	}
+
 }

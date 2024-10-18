@@ -16,3 +16,4 @@ void EnemyClipping();
 void CreatEnemy(int x, int y);
 
 void BulletEnemyCollision();
+void EnemyPlayerCollision();
